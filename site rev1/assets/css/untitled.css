@@ -1,0 +1,22 @@
+.imagem-glasses {
+  position: relative;
+  top: 0;
+  filter: brightness(65%) contrast(204%) grayscale(61%) hue-rotate(360deg) saturate(200%) drop-shadow(-34px 4px 55px #3763f4);
+  animation: animacao 10s ease-in-out infinite;
+}
+
+@keyframes animacao {
+  0% {
+    transform: translateY(0) skewX(0);
+    filter: brightness(65%) contrast(204%) grayscale(61%) hue-rotate(360deg) saturate(200%) drop-shadow(-34px 4px 55px #3763f4);
+  }
+  50% {
+    transform: translateY(3px) skewX(1deg);
+    filter: brightness(65%) contrast(204%) grayscale(61%) hue-rotate(0deg) saturate(200%) drop-shadow(-34px 4px 55px #19f5aa);
+  }
+  100% {
+    transform: translateY(0) skewY(0);
+    filter: brightness(65%) contrast(204%) grayscale(61%) hue-rotate(360deg) saturate(200%) drop-shadow(-34px 4px 55px #3763f4);
+  }
+}
+
